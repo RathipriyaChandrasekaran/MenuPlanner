@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/daydatetextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#A34747"
+        android:textStyle="bold"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/breakfasttextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="13sp"/>
+
+    <TextView
+        android:id="@+id/lunchtextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="13sp"/>
+
+    <TextView
+        android:id="@+id/dinnertextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/idtextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:visibility="invisible"/>
+
+</LinearLayout>
